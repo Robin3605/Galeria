@@ -15,6 +15,12 @@
 	    background-size: cover;
 	    position: relative;
     }
+    .galeria__contenedor-imagen-activa{
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
     .contenedor-pictures{
         height: auto;
         
