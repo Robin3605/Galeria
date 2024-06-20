@@ -7,7 +7,10 @@
 }
 
 body {
-	background: variables.$color-fondo;
+	background: linear-gradient(to bottom, rgba(26, 25, 25, 0) 0%, rgba(59, 59, 59, 0) 95%), url('../img/portada/imagen\ guatavita\ 2.jpeg');
+	background-repeat: no-repeat;
+	height: 100%;
+	// background: variables.$color-fondo;
 	font-family: variables.$primary-font-family;
 	font-size: 16px;
 	color: #fff;

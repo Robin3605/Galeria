@@ -43,13 +43,13 @@ const cargarAnteriorSiguiente = (direccion) => {
     if(direccion === 'siguiente'){
         if(fotos[idImagenActual +1]){
             const {id, nombre, ruta, descripcion} = fotos[indexImagenActual +1];
-        cargarImagen(id, nombre, ruta, descripcion);
+            cargarImagen(id, nombre, ruta, descripcion);
         }
         
     } else if (direccion === 'anterior'){
         if(fotos[idImagenActual -1]){
             const {id, nombre, ruta, descripcion} = fotos[indexImagenActual -1];
-        cargarImagen(id, nombre, ruta, descripcion);
+            cargarImagen(id, nombre, ruta, descripcion);
         }
     }
 }

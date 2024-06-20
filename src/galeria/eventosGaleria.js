@@ -16,11 +16,11 @@ galeria.addEventListener('click', (e) => {
         slideClick(e);
     }
 
-    if(boton?.dataset?.accion ==='siguiente-imagen'){
+    if(boton?.dataset?.accion === 'siguiente-imagen'){
         cargarAnteriorSiguiente('siguiente');
     }
 
-    if(boton?.dataset?.accion ==='anterior-imagen'){
+    if(boton?.dataset?.accion === 'anterior-imagen'){
         cargarAnteriorSiguiente('anterior');
     }
 

@@ -511,13 +511,13 @@ const cargarAnteriorSiguiente = (direccion) => {
     if(direccion === 'siguiente'){
         if(fotos[idImagenActual +1]){
             const {id, nombre, ruta, descripcion} = fotos[indexImagenActual +1];
-        cargarImagen(id, nombre, ruta, descripcion);
+            cargarImagen(id, nombre, ruta, descripcion);
         }
         
     } else if (direccion === 'anterior'){
         if(fotos[idImagenActual -1]){
             const {id, nombre, ruta, descripcion} = fotos[indexImagenActual -1];
-        cargarImagen(id, nombre, ruta, descripcion);
+            cargarImagen(id, nombre, ruta, descripcion);
         }
     }
 };
@@ -647,11 +647,11 @@ galeria.addEventListener('click', (e) => {
         slideClick(e);
     }
 
-    if(boton?.dataset?.accion ==='siguiente-imagen'){
+    if(boton?.dataset?.accion === 'siguiente-imagen'){
         cargarAnteriorSiguiente('siguiente');
     }
 
-    if(boton?.dataset?.accion ==='anterior-imagen'){
+    if(boton?.dataset?.accion === 'anterior-imagen'){
         cargarAnteriorSiguiente('anterior');
     }
 
